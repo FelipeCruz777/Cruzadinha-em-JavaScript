@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruzadinha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+
+<body>
+
+
+   
+    <div id="cont">
+        <div id="jogo">
+            <table>
+                <tr id="linha1">
+                    <td id="teste"></td>
+                    <td></td>
+                    <td id="quad_1">16</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha2">
+                    <td></td>
+                    <td></td>
+                    <td id="quad_2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="registradores_1">3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha3">
+                    <td id="dualcore_1">15</td>
+                    <td id="dualcore_2"></td>
+                    <td id="dualcore_3"></td>
+                    <td id="dualcore_4"></td>
+                    <td id="dualcore_5"></td>
+                    <td id="cpu_1">1</td>
+                    <td id="dualcore_6"></td>
+                    <td id="dualcore_7"></td>
+                    <td id="registradores_2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha4">
+                    <td></td>
+                    <td></td>
+                    <td id="quad_3"></td>
+                    <td></td>
+                    <td></td>
+                    <td id="cpu_2"></td>
+                    <td></td>
+                    <td></td>
+                    <td id="registradores_3"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha5">
+                    <td></td>
+                    <td></td>
+                    <td id="quad_4"></td>
+                    <td></td>
+                    <td></td>
+                    <td id="cpu_3"></td>
+                    <td></td>
+                    <td></td>
+                    <td id="registradores_4">14</td>
+                    <td id="i7_1"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha6">
+                    <td></td>
+                    <td></td>
+                    <td id="quad_5"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="registradores_5"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha7">
+                    <td></td>
+                    <td id="rom_1">5</td>
+                    <td id="rom_2"></td>
+                    <td id="rom_3"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="registradores_6"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha8">
+                    <td></td>
+                    <td></td>
+                    <td id="quad_6"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="registradores_7"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha9">
+                    <td></td>
+                    <td></td>
+                    <td id="quad_7"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="flash_1">7</td>
+                    <td id="flash_2"></td>
+                    <td id="registradores_8"></td>
+                    <td id="flash_3"></td>
+                    <td id="flash_4"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="dma_1">9</td>
+                </tr>
+
+
+                <tr id="linha10">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="registradores_9"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="dma_2"></td>
+                </tr>
+
+
+                <tr id="linha11">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="memoria_1">8</td>
+                    <td id="memoria_2"></td>
+                    <td id="memoria_3"></td>
+                    <td id="registradores_10"></td>
+                    <td id="memoria_4"></td>
+                    <td id="memoria_5">13</td>
+                    <td id="memoria_6"></td>
+                    <td id="memoria_7"></td>
+                    <td id="memoria_8"></td>
+                    <td id="eprom_0">6</td>
+                    <td id="memoria_10"></td>
+                    <td id="memoria_11"></td>
+                    <td id="memoria_12"></td>
+                    <td id="memoria_13"></td>
+                    <td id="memoria_14"></td>
+                    <td id="memoria_15"></td>
+                </tr>
+
+
+                <tr id="linha12">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="registradores_11"></td>
+                    <td></td>
+                    <td id="i5_1"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="eprom_1"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha13">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="registradores_12"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="eprom_2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha14">
+                    <td></td>
+                    <td id="data_1">12</td>
+                    <td id="adress_1">11</td>
+                    <td id="data_2"></td>
+                    <td id="data_3"></td>
+                    <td id="data_5"></td>
+                    <td id="data_4"></td>
+                    <td id="ula_1">2</td>
+                    <td id="registradores_13"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="eprom_3"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linh15">
+                    <td></td>
+                    <td></td>
+                    <td id="adress_2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="ula_2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="eprom_4"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha16">
+                    <td></td>
+                    <td></td>
+                    <td id="ram_1">4</td>
+                    <td id="ram_2"></td>
+                    <td id="ram_3"></td>
+                    <td></td>
+                    <td></td>
+                    <td id="ula_3"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha17">
+                    <td></td>
+                    <td></td>
+                    <td id="adress_3"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha18">
+                    <td></td>
+                    <td></td>
+                    <td id="adress_4"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha19">
+                    <td></td>
+                    <td id="cs_1">10</td>
+                    <td id="cs_2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha20">
+                    <td></td>
+                    <td></td>
+                    <td id="adress_5"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha21">
+                    <td></td>
+                    <td></td>
+                    <td id="adress_6"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha22">
+                    <td></td>
+                    <td></td>
+                    <td id="adress_7"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+                <tr id="linha23">
+                    <td></td>
+                    <td></td>
+                    <td id="adress_8"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <br>
+
+        </div>
+        <div id="fim_jogo">
+            <span class="final">
+                <Span class="pergunta" id="pergunta" style="color: #ffe20b;">
+                    Pergunta <spam id="nmr_p">1</spam>:
+                    <div id="result">Unidade Central de Processamento,
+                        é o componoente que controla as principais operações para seu computador, celular, arduino,
+                        entre outros.</div>
+
+                    <br>
+                </Span>
+
+                <input class="id_resposta" type="text" id="id_resposta">
+
+                <button class="btna" id="botao_validar" onclick="validar()">Verificar</button>
+        </div>
+        <button class="btn" onclick="gabarito()">Gabarito</button> <a href="inicial.html"><button
+                class="btn">Refazer</button></a>
+
+
+
+
+
+
+
+
+
+        </span>
+
+    </span>
+    <div id="finalizacao" style="display: none; margin-top: 13%;">
+        Você conseguiu finalizar a cruzadinha!!!! <br>
+        <h1> <img src="icon1.png" height="50px" alt=""> Parabéns <img src="icon1.png" height="50px" alt=""></h1>
+        <a href="inicial.html"><button class="btn">Refazer</button></a>
+    </div>
+</body>
+
+</html>
+
+<script>
+
+
+
+
+    function gabarito() {
+
+            fim_jogo.style.display = 'none';
+            cpu_1.innerHTML = '<span style="color: green;" > C </span>',
+            cpu_2.innerHTML = '<span style="color: green;" > P </span>',
+            cpu_3.innerHTML = '<span style="color: green;" > U </span>',
+            ula_1.innerHTML = '<span style="color: green;" >U',
+            ula_2.innerHTML = '<span style="color: green;" >L',
+            ula_3.innerHTML = '<span style="color: green;" >A',
+            registradores_1.innerHTML = '<span style="color: green;" >R',
+            registradores_2.innerHTML = '<span style="color: green;" >E',
+            registradores_3.innerHTML = '<span style="color: green;" >G',
+            registradores_4.innerHTML = '<span style="color: green;" >I',
+            registradores_5.innerHTML = '<span style="color: green;" >S',
+            registradores_6.innerHTML = '<span style="color: green;" >T',
+            registradores_7.innerHTML = '<span style="color: green;" >R',
+            registradores_8.innerHTML = '<span style="color: green;" >A',
+            registradores_9.innerHTML = '<span style="color: green;" >D',
+            registradores_10.innerHTML = '<span style="color: green;" >O',
+            registradores_11.innerHTML = '<span style="color: green;" >R',
+            registradores_12.innerHTML = '<span style="color: green;" >E',
+            registradores_13.innerHTML = '<span style="color: green;" >S',
+            ram_1.innerHTML = '<span style="color: green;" >R',
+            ram_2.innerHTML = '<span style="color: green;" >A',
+            ram_3.innerHTML = '<span style="color: green;" >M',
+            rom_1.innerHTML = '<span style="color: green;" >R',
+            rom_2.innerHTML = '<span style="color: green;" >O',
+            rom_3.innerHTML = '<span style="color: green;" >M </SPAN>',
+            eprom_0.innerHTML = '<span style="color: green;" >E',
+            eprom_1.innerHTML = '<span style="color: green;" >P',
+            eprom_2.innerHTML = '<span style="color: green;" >R',
+            eprom_3.innerHTML = '<span style="color: green;" >O',
+            eprom_4.innerHTML = '<span style="color: green;" >M',
+            flash_1.innerHTML = '<span style="color: green;" >F',
+            flash_2.innerHTML = '<span style="color: green;" >L',
+            flash_3.innerHTML = '<span style="color: green;" >S',
+            flash_4.innerHTML = '<span style="color: green;" >H',
+            memoria_1.innerHTML = '<span style="color: green;" >M',
+            memoria_2.innerHTML = '<span style="color: green;" >E',
+            memoria_3.innerHTML = '<span style="color: green;" >M',
+            memoria_4.innerHTML = '<span style="color: green;" >R',
+            memoria_5.innerHTML = '<span style="color: green;" >I',
+            memoria_6.innerHTML = '<span style="color: green;" >A',
+            memoria_7.innerHTML = '',
+            memoria_8.innerHTML = '<span style="color: green;" >D',
+            memoria_10.innerHTML = '',
+            memoria_11.innerHTML = '<span style="color: green;" >M',
+            memoria_12.innerHTML = '<span style="color: green;" >A',
+            memoria_13.innerHTML = '<span style="color: green;" >S',
+            memoria_14.innerHTML = '<span style="color: green;" >S',
+            memoria_15.innerHTML = '<span style="color: green;" >A',
+            dma_1.innerHTML = '<span style="color: green;" >D',
+            dma_2.innerHTML = '<span style="color: green;" >M',
+            cs_1.innerHTML = '<span style="color: green;" >C',
+            cs_2.innerHTML = '<span style="color: green;" >S',
+            adress_1.innerHTML = '<span style="color: green;" >A',
+            adress_2.innerHTML = '<span style="color: green;" >D',
+            adress_3.innerHTML = '<span style="color: green;" >E',
+            adress_4.innerHTML = '<span style="color: green;" >S',
+            adress_5.innerHTML = '<span style="color: green;" >B',
+            adress_6.innerHTML = '<span style="color: green;" >U',
+            adress_7.innerHTML = '<span style="color: green;" >S',
+            data_1.innerHTML = '<span style="color: green;" >D',
+            data_2.innerHTML = '<span style="color: green;" >T',
+            data_3.innerHTML = '<span style="color: green;" >A',
+            data_4.innerHTML = '<span style="color: green;" >B',
+            i5_1.innerHTML = '<span style="color: green;" >5',
+            i7_1.innerHTML = '<span style="color: green;" >7',
+            dualcore_1.innerHTML = '<span style="color: green;" >D',
+            dualcore_2.innerHTML = '<span style="color: green;" >U',
+            dualcore_3.innerHTML = '<span style="color: green;" >A',
+            dualcore_4.innerHTML = '<span style="color: green;" >L',
+            dualcore_5.innerHTML = '<span style="color: green;" >C',
+            dualcore_6.innerHTML = '<span style="color: green;" >O',
+            dualcore_7.innerHTML = '<span style="color: green;" >R',
+            quad_1.innerHTML = '<span style="color: green;" >Q',
+            quad_2.innerHTML = '<span style="color: green;" >U',
+            quad_3.innerHTML = '<span style="color: green;" >D',
+            quad_4.innerHTML = '<span style="color: green;" >C',
+            quad_5.innerHTML = '<span style="color: green;" >R',
+            quad_6.innerHTML = '<span style="color: green;" >E'
+    }
+
+    function validar() {
+        var resposta = id_resposta.value;
+        var pergunta = nmr_p.innerHTML
+
+
+
+        if (resposta == 'CPU' && pergunta == '1') {
+
+            cpu_1.innerHTML = '<span style="color: green;" > C </span>',
+                cpu_2.innerHTML = '<span style="color: green;" > P </span>',
+                cpu_3.innerHTML = '<span style="color: green;" > U </span>',
+                nmr_p.innerHTML = '2',
+
+                result.innerHTML = 'Unidade Lógica aritmética, é parte do processador que realiza operações matemáticas e lógicas.',
+                document.getElementById('id_resposta').value = ''
+            id_resposta.autofocus
+
+        }
+
+
+        else if (resposta == 'ULA' && pergunta == '2') {
+
+            ula_1.innerHTML = '<span style="color: green;" >U',
+                ula_2.innerHTML = '<span style="color: green;" >L',
+                ula_3.innerHTML = '<span style="color: green;" >A',
+                result.innerHTML = 'É a memória dentro da própria CPU que armazena um valor n de bits, é um tipo de memória que se encontra no topo da hieraquia de memória.',
+                nmr_p.innerHTML = '3',
+
+
+                document.getElementById('id_resposta').value = ''
+            id_resposta.autofocus
+            acertos.innerHTML = `Você acertou 1/16`;
+        }
+
+
+        else if (resposta == 'registradores' && pergunta == '3') {
+
+            registradores_1.innerHTML = '<span style="color: green;" >R',
+                registradores_2.innerHTML = '<span style="color: green;" >E',
+                registradores_3.innerHTML = '<span style="color: green;" >G',
+                registradores_4.innerHTML = '<span style="color: green;" >I',
+                registradores_5.innerHTML = '<span style="color: green;" >S',
+                registradores_6.innerHTML = '<span style="color: green;" >T',
+                registradores_7.innerHTML = '<span style="color: green;" >R',
+                registradores_8.innerHTML = '<span style="color: green;" >A',
+                registradores_9.innerHTML = '<span style="color: green;" >D',
+                registradores_10.innerHTML = '<span style="color: green;" >O',
+                registradores_11.innerHTML = '<span style="color: green;" >R',
+                registradores_12.innerHTML = '<span style="color: green;" >E',
+                registradores_13.innerHTML = '<span style="color: green;" >S',
+                nmr_p.innerHTML = '4',
+                result.innerHTML = 'é responsável por dar agilidade e velocidade no funcionamento do sistemas.',
+                document.getElementById('id_resposta').value = ''
+
+
+
+        }
+
+
+        else if (resposta == 'RAM' && pergunta == '4') {
+
+            ram_1.innerHTML = '<span style="color: green;" >R',
+                ram_2.innerHTML = '<span style="color: green;" >A',
+                ram_3.innerHTML = '<span style="color: green;" >M',
+                nmr_p.innerHTML = '5',
+                result.innerHTML = 'Tipo de memória não volátil que oferece dados apenas para leitura.',
+                document.getElementById('id_resposta').value = ''
+
+
+
+        }
+
+
+        else if (resposta == 'ROM' && pergunta == '5') {
+
+            rom_1.innerHTML = '<span style="color: green;" >R',
+                rom_2.innerHTML = '<span style="color: green;" >O',
+                rom_3.innerHTML = '<span style="color: green;" >M </SPAN>',
+                nmr_p.innerHTML = '6',
+                result.innerHTML = 'Tipo de memória não volátil, que é capaz de armazenar as informações quando a energia é desligada. ',
+                document.getElementById('id_resposta').value = ''
+
+
+
+        }
+
+
+        else if (resposta == 'EPROM' && pergunta == '6') {
+
+            eprom_0.innerHTML = '<span style="color: green;" >E',
+                eprom_1.innerHTML = '<span style="color: green;" >P',
+                eprom_2.innerHTML = '<span style="color: green;" >R',
+                eprom_3.innerHTML = '<span style="color: green;" >O',
+                eprom_4.innerHTML = '<span style="color: green;" >M',
+                nmr_p.innerHTML = '7',
+                result.innerHTML =
+                'TÉ uma memória do tipo EEPROM que mantém as informações armazenadas sem a necessidade de uma fonte de energia elétrica.',
+                document.getElementById('id_resposta').value = ''
+
+
+
+        }
+
+
+        else if (resposta == 'FLASH' && pergunta == '7') {
+
+            flash_1.innerHTML = '<span style="color: green;" >F',
+                flash_2.innerHTML = '<span style="color: green;" >L',
+                flash_3.innerHTML = '<span style="color: green;" >S',
+                flash_4.innerHTML = '<span style="color: green;" >H',
+                nmr_p.innerHTML = '8',
+                result.innerHTML = 'Tem como função armazenar grandes quantidades de informações, que precisa ter seu conteúdo copiado na RAM para poder ser executado pela CPU.',
+                document.getElementById('id_resposta').value = ''
+
+
+
+        }
+
+
+        else if (resposta == 'memória de massa' && pergunta == '8') {
+
+            memoria_1.innerHTML = '<span style="color: green;" >M',
+                memoria_2.innerHTML = '<span style="color: green;" >E',
+                memoria_3.innerHTML = '<span style="color: green;" >M',
+                memoria_4.innerHTML = '<span style="color: green;" >R',
+                memoria_5.innerHTML = '<span style="color: green;" >I',
+                memoria_6.innerHTML = '<span style="color: green;" >A',
+                memoria_7.innerHTML = '',
+                memoria_8.innerHTML = '<span style="color: green;" >D',
+                // memoria_9.innerHTML = '<span style="color: green;" >E',
+                memoria_10.innerHTML = '',
+                memoria_11.innerHTML = '<span style="color: green;" >M',
+                memoria_12.innerHTML = '<span style="color: green;" >A',
+                memoria_13.innerHTML = '<span style="color: green;" >S',
+                memoria_14.innerHTML = '<span style="color: green;" >S',
+                memoria_15.innerHTML = '<span style="color: green;" >A',
+                nmr_p.innerHTML = '9',
+                result.innerHTML = 'Permiti certos periféricos a acessar a memórias ram sem ocupar processamento.. ',
+                document.getElementById('id_resposta').value = ''
+
+
+
+        }
+
+
+        else if (resposta == 'DMA' && pergunta == '9') {
+
+            dma_1.innerHTML = '<span style="color: green;" >D',
+                dma_2.innerHTML = '<span style="color: green;" >M',
+                nmr_p.innerHTML = '10',
+                result.innerHTML = 'Seleção de chip é usado para selecionar um ou um conjunto de circuitos que estão conectados no computador',
+                document.getElementById('id_resposta').value = ''
+
+
+
+        }
+
+
+        else if (resposta == 'CS' && pergunta == '10') {
+
+            cs_1.innerHTML = '<span style="color: green;" >C',
+                cs_2.innerHTML = '<span style="color: green;" >S',
+                nmr_p.innerHTML = '11',
+                result.innerHTML = 'Grupo de linhas para se referir a um endereço físico na memória, o número de linhas determina a quantidade de endereços na memória física.',
+                document.getElementById('id_resposta').value = ''
+
+
+
+        }
+
+
+        else if (resposta == 'adress bus' && pergunta == '11') {
+
+            adress_1.innerHTML = '<span style="color: green;" >A',
+                adress_2.innerHTML = '<span style="color: green;" >D',
+                adress_3.innerHTML = '<span style="color: green;" >E',
+                adress_4.innerHTML = '<span style="color: green;" >S',
+                adress_5.innerHTML = '<span style="color: green;" >B',
+                adress_6.innerHTML = '<span style="color: green;" >U',
+                adress_7.innerHTML = '<span style="color: green;" >S',
+                nmr_p.innerHTML = '12',
+                result.innerHTML = 'é responsável por carregar os dados.',
+                document.getElementById('id_resposta').value = ''
+
+
+        }
+
+
+        else if (resposta == 'data bus' && pergunta == '12') {
+
+            data_1.innerHTML = '<span style="color: green;" >D',
+                data_2.innerHTML = '<span style="color: green;" >T',
+                data_3.innerHTML = '<span style="color: green;" >A',
+                data_4.innerHTML = '<span style="color: green;" >B',
+                nmr_p.innerHTML = '13',
+                result.innerHTML = 'Fabricado pela intel, lançado oficialmente 9 de setembro de 2009, apresenta uma frequência de 3.1 Ghz no modelo 2400, e tem 4 núcleos.',
+                document.getElementById('id_resposta').value = ''
+
+
+
+        }
+
+
+        else if (resposta == 'I5' && pergunta == '13') {
+
+            i5_1.innerHTML = '<span style="color: green;" >5',
+                nmr_p.innerHTML = '14',
+                result.innerHTML = 'Fabricado pela intel, lançado oficialmente em 17 de novembro de 2008 , apresenta uma frequência de 2,93 GHz no modelo 870, e tem 4 núcleos.',
+                document.getElementById('id_resposta').value = ''
+
+
+
+        }
+
+
+        else if (resposta == 'I7' && pergunta == '14') {
+
+            i7_1.innerHTML = '<span style="color: green;" >7',
+                nmr_p.innerHTML = '15',
+                result.innerHTML = 'Ele possui dois núcleos de processamento físico. Exemplo: Core 2duo – E7500',
+                document.getElementById('id_resposta').value = ''
+
+
+            acertos.innerHTML = `Você acertou ${contador}/16`;
+        }
+
+
+        else if (resposta == 'dual core' && pergunta == '15') {
+
+            dualcore_1.innerHTML = '<span style="color: green;" >D',
+                dualcore_2.innerHTML = '<span style="color: green;" >U',
+                dualcore_3.innerHTML = '<span style="color: green;" >A',
+                dualcore_4.innerHTML = '<span style="color: green;" >L',
+                dualcore_5.innerHTML = '<span style="color: green;" >C',
+                dualcore_6.innerHTML = '<span style="color: green;" >O',
+                dualcore_7.innerHTML = '<span style="color: green;" >R',
+                nmr_p.innerHTML = '16',
+                result.innerHTML = 'Ele possui quatro núcleos de processamento físico. Exemplo: i5 - 7400',
+                document.getElementById('id_resposta').value = ''
+
+
+
+        }
+
+
+        else if (resposta == 'quad core' && pergunta == '16') {
+
+            quad_1.innerHTML = '<span style="color: green;" >Q',
+                quad_2.innerHTML = '<span style="color: green;" >U',
+                quad_3.innerHTML = '<span style="color: green;" >D',
+                quad_4.innerHTML = '<span style="color: green;" >C',
+                quad_5.innerHTML = '<span style="color: green;" >R',
+                quad_6.innerHTML = '<span style="color: green;" >E'
+
+            finalizacao.style.display = 'block';
+            cont.style.display = 'none';
+
+
+
+
+
+        }
+        else {
+            alert('Resposta errada')
+            alert('Tente Novamente')
+
+        }
+    }
+
+
+</script>
